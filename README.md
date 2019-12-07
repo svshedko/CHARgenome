@@ -5,7 +5,7 @@ https://arxiv.org/abs/1912.02474
 
 /resultsMapping – Результаты выравнивания прочтений на диагностические локусы экспресс-методом. Там, где это было необходимо, все проверялось с помощью Bowtie2.
 
-/trees – Позиция пяти собранных митогеномов на филогенетическом дереве Salvelinus
+/trees – Позиция пяти собранных митогеномов на филогенетическом дереве *Salvelinus*
 
 
 
@@ -17,4 +17,4 @@ https://arxiv.org/abs/1912.02474
 
 /resultsMapping - Results of mapping of illumina reads against the diagnostic loci by the express method. Where necessary, everything was validated with Bowtie2.
 
-/trees – Illustration of the position of five assembled mitogenomes on the phylogenetic tree Salvelinus
+/trees – Illustration of the position of five assembled mitogenomes on the phylogenetic tree *Salvelinus*
