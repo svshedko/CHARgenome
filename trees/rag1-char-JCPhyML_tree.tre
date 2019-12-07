@@ -1,0 +1,151 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=49;
+	taxlabels
+	'GQ871466.1_Coregonus_migratorius_voucher_IX.3.27'
+	'GQ871467.1_Coregonus_migratorius_voucher_IX.3.28'
+	'GQ871468.1_Thymallus_arcticus_voucher_II20'
+	'GQ871469.1_Thymallus_tugarinae_voucher_IX.4.22'
+	'GQ871470.1_Brachymystax_lenok_voucher_VII.2.4'
+	'GQ871471.1_Hucho_taimen_voucher_IX.3.25'
+	'GQ871472.1_Hucho_taimen_voucher_IX.3.26'
+	'GQ871473.1_Salmo_trutta_voucher_IX.5.9'
+	'GQ871474.1_Parahucho_perryi_voucher_IX.4.33'
+	'GQ871475.1_Parahucho_perryi_voucher_IX.4.34'
+	'GQ871476.1_Salvelinus_leucomaenis_voucher_IX.5.1'
+	'GQ871477.1_Salvelinus_leucomaenis_voucher_IX.5.2'
+	'GQ871478.1_Salvelinus_levanidovi_voucher_IX.2.36'
+	'GQ871479.1_Salvelinus_curilus_voucher_II14'
+	'GQ871480.1_Salvelinus_curilus_voucher_II112'
+	'GQ871481.1_Salvelinus_malma_voucher_VII.2.25'
+	'GQ871482.1_Salvelinus_curilus_voucher_IX.5.14'
+	'GQ871483.1_Salvelinus_taranetzi_voucher_IX.2.30'
+	'GQ871484.1_Salvelinus_boganidae_voucher_IX.2.38'
+	'GQ871485.1_Salvelinus_elgyticus_voucher_IX.2.40'
+	'GQ871486.1_Oncorhynchus_masou_voucher_N77'
+	'GQ871487.1_Oncorhynchus_masou_voucher_IX.5.25'
+	'GQ871488.1_Oncorhynchus_keta_voucher_IX.4.52'
+	'GQ871489.1_Oncorhynchus_keta_voucher_IX.4.53'
+	'GQ871490.1_Oncorhynchus_gorbuscha_voucher_N344'
+	'GQ871491.1_Oncorhynchus_nerka_voucher_IX.5.13'
+	'GQ871492.1_Oncorhynchus_kisutch_voucher_N343'
+	'GQ871493.1_Oncorhynchus_tshawytscha_voucher_N400'
+	'GQ871494.1_Oncorhynchus_mykiss_voucher_N404'
+	'MK026521.1_Salvelinus_fontinalis_SFON1'
+	'MK026522.1_Salvelinus_namaycush_SNAM1'
+	'MK026523.1_Salvelinus_levanidovi_SLEV1'
+	'MK026524.1_Salvelinus_leucomaenis_SLEU1'
+	'MK026525.1_Salvethymus_svetovidovi_AC1'
+	'MK026526.1_Salvelinus_curilus_DVSAS1'
+	'MK026527.1_Salvelinus_malma_miyabei_DVSAS1'
+	'MK026528.1_Salvelinus_malma_malma_BER1n'
+	'MK026529.1_Salvelinus_alpinus_erythrinus_AC1'
+	'MK026530.1_Salvelinus_alpinus_erythrinus_SIB12n'
+	'MK026531.1_Salvelinus_confluentus_SCON1'
+	'MK026532.1_Salvelinus_malma_lordi_DVSNA1'
+	'MK026533.1_Salvelinus_malma_lordi_DVSNA2'
+	'MK026534.1_Salvelinus_boganidae_AC3'
+	'MK026535.1_Salvelinus_elgyticus_AC1'
+	'NC_036842.1=69870375-69871898'[&!color=#ff00ff]
+	SRX3776048-52[&!color=#ff0000]
+	SRX5282523-24[&!color=#ff0000]
+	SRX5282525[&!color=#ff0000]
+	SRX5282526[&!color=#ff0000]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ((('GQ871466.1_Coregonus_migratorius_voucher_IX.3.27':0.0,'GQ871467.1_Coregonus_migratorius_voucher_IX.3.28':0.0)[&label=1.0]:0.017907,('GQ871468.1_Thymallus_arcticus_voucher_II20':0.0031,'GQ871469.1_Thymallus_tugarinae_voucher_IX.4.22':0.002823)[&label=1.0]:0.020737):4.07E-4,(('GQ871470.1_Brachymystax_lenok_voucher_VII.2.4':0.001971,('GQ871471.1_Hucho_taimen_voucher_IX.3.25':0.0,'GQ871472.1_Hucho_taimen_voucher_IX.3.26':0.0)[&label=0.95]:0.002633)[&label=1.0]:0.009403,('GQ871473.1_Salmo_trutta_voucher_IX.5.9':0.013276,(('GQ871474.1_Parahucho_perryi_voucher_IX.4.33':0.0,'GQ871475.1_Parahucho_perryi_voucher_IX.4.34':0.0)[&label=1.0]:0.00527,((('GQ871486.1_Oncorhynchus_masou_voucher_N77':6.56E-4,'GQ871487.1_Oncorhynchus_masou_voucher_IX.5.25':0.001315)[&label=0.99]:0.005271,(('GQ871491.1_Oncorhynchus_nerka_voucher_IX.5.13':0.00395,('GQ871490.1_Oncorhynchus_gorbuscha_voucher_N344':0.003291,('GQ871488.1_Oncorhynchus_keta_voucher_IX.4.52':0.0,'GQ871489.1_Oncorhynchus_keta_voucher_IX.4.53':0.0)[&label=0.94]:0.002632)[&label=0.74]:6.54E-4)[&label=0.86]:0.001315,('GQ871493.1_Oncorhynchus_tshawytscha_voucher_N400':0.001971,('GQ871494.1_Oncorhynchus_mykiss_voucher_N404':0.005929,'GQ871492.1_Oncorhynchus_kisutch_voucher_N343':0.001972)[&label=0.0]:0.0)[&label=0.92]:0.001314)[&label=0.0]:0.0)[&label=1.0]:0.004611,(('GQ871476.1_Salvelinus_leucomaenis_voucher_IX.5.1':0.0,('MK026524.1_Salvelinus_leucomaenis_SLEU1':0.001113,'GQ871477.1_Salvelinus_leucomaenis_voucher_IX.5.2':0.0)[&label=0.0]:0.0)[&label=1.0]:0.005931,(('GQ871478.1_Salvelinus_levanidovi_voucher_IX.2.36':0.0,'MK026523.1_Salvelinus_levanidovi_SLEV1':0.0)[&label=0.97]:0.002632,('MK026531.1_Salvelinus_confluentus_SCON1':0.002228,(('MK026521.1_Salvelinus_fontinalis_SFON1':0.001113,'MK026522.1_Salvelinus_namaycush_SNAM1':0.003345)[&label=0.0]:0.0,('MK026525.1_Salvethymus_svetovidovi_AC1':0.0,('MK026529.1_Salvelinus_alpinus_erythrinus_AC1':0.0,('MK026530.1_Salvelinus_alpinus_erythrinus_SIB12n':0.001113,(('GQ871485.1_Salvelinus_elgyticus_voucher_IX.2.40':6.56E-4,((('MK026532.1_Salvelinus_malma_lordi_DVSNA1':0.0,'MK026533.1_Salvelinus_malma_lordi_DVSNA2':0.001113)[&label=0.85]:0.001113,('MK026526.1_Salvelinus_curilus_DVSAS1':0.0,('GQ871479.1_Salvelinus_curilus_voucher_II14':0.0,('GQ871480.1_Salvelinus_curilus_voucher_II112':6.56E-4,'GQ871482.1_Salvelinus_curilus_voucher_IX.5.14':0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0,('MK026527.1_Salvelinus_malma_miyabei_DVSAS1':0.0,((SRX5282523-24:0.0,'GQ871481.1_Salvelinus_malma_voucher_VII.2.25':0.0)[&label=0.0]:0.0,('NC_036842.1=69870375-69871898':0.0,('MK026528.1_Salvelinus_malma_malma_BER1n':0.0,(SRX5282526:0.0,SRX3776048-52:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.92]:6.56E-4)[&label=0.0]:0.0)[&label=0.92]:0.001314)[&label=0.0]:0.0,(('GQ871484.1_Salvelinus_boganidae_voucher_IX.2.38':0.0,(SRX5282525:0.0,'MK026534.1_Salvelinus_boganidae_AC3':0.0)[&label=0.0]:0.0)[&label=0.91]:6.56E-4,('MK026535.1_Salvelinus_elgyticus_AC1':0.0,'GQ871483.1_Salvelinus_taranetzi_voucher_IX.2.30':0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.92]:7.66E-4)[&label=0.0]:0.0)[&label=0.98]:0.003837)[&label=0.0]:0.0)[&label=0.93]:0.001972)[&label=0.75]:6.55E-4)[&label=0.72]:6.27E-4)[&label=0.91]:0.003195):0.007731)[&label=0.99];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
