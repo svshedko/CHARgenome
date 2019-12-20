@@ -16,7 +16,7 @@ https://arxiv.org/abs/1912.02474
 Shedko S.V. 2019. Assembly ASM291031v2 (Genbank: GCA_002910315.2) identified as assembly of the Northern Dolly Varden (*Salvelinus malma malma*) genome, and not the Arctic char (*S. alpinus*) genome // arXiv:1912.02474
 https://arxiv.org/abs/1912.02474
  
-[Here is translation this reprint from Russian to English via translate.google.com](https://translate.google.com/translate?hl=ru&sl=ru&tl=en&u=https://arxiv.org/pdf/1912.02474.pdf) 
+[Here is translation this preprint from Russian to English via translate.google.com](https://translate.google.com/translate?hl=ru&sl=ru&tl=en&u=https://arxiv.org/pdf/1912.02474.pdf) 
 
 /resultsMapping - Results of mapping of illumina reads against the diagnostic loci by the express method. Where necessary, everything was validated with Bowtie2.
 
