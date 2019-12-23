@@ -1,4 +1,4 @@
-**Здесь размещены данные, которые служат приложением к статье**
+**Здесь размещены данные, которые служат приложением к препринту**
 
 Шедько С.В. 2019. Сборка ASM291031v2 (Genbank: GCA_002910315.2) идентифицирована как сборка генома северной мальмы (*Salvelinus malma malma*), а не генома арктического гольца (*S. alpinus*) // arXiv:1912.02474 
 https://arxiv.org/abs/1912.02474
@@ -11,7 +11,7 @@ https://arxiv.org/abs/1912.02474
 
 
 
-**Here is the data that is a supplementary to the article:**
+**Here is the data that is a supplementary to the preprint:**
 
 Shedko S.V. 2019. Assembly ASM291031v2 (Genbank: GCA_002910315.2) identified as assembly of the Northern Dolly Varden (*Salvelinus malma malma*) genome, and not the Arctic char (*S. alpinus*) genome // arXiv:1912.02474
 https://arxiv.org/abs/1912.02474
